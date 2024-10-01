@@ -23,6 +23,14 @@ nav {
     padding: 20px 40px;
     background-color: #fff;
     border-bottom: 1px solid #ccc;
+
+     /* make sure nav  is fixed */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #fff; /* Optional: Set a background color */
+    
 }
 
 .logo h1 {
