@@ -1,13 +1,3 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const hamburger = document.getElementById('hamburger');
-    const navLinks = document.getElementById('nav-links');
-
-    hamburger.addEventListener('click', () => {
-        navLinks.classList.toggle('open');
-    });
-});
-
-
 document.querySelectorAll('.accordion-item').forEach(item => {
     const header = item.querySelector('.accordion-header');
     const content = item.querySelector('.accordion-content');
@@ -22,3 +12,15 @@ document.querySelectorAll('.accordion-item').forEach(item => {
       toggle.textContent = isVisible ? '+' : '-';
     });
   });
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('open');
+    });
+});
+
+
